@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class rankDAO implements DataAccessObject<Model> {
 	
 	static final String DRIVER_CLASS = "com.mysql.cj.jdbc.Driver";
-	static final String DB_URL = "jdbc:mysql://localhost:3306/game?";
+	static final String DB_URL = "jdbc:mysql://localhost:3306/game";
 	static final String USER = "root";
 	static final String PASS = "";
 	
